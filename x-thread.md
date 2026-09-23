@@ -1,9 +1,9 @@
 # X thread draft (post after README is filled and the repo is public; tag @SpoutFi)
 
 1/
-I spent today inside the @SpoutFi beta (Solana devnet, tester no. 253), bought two stocks, and read every docs page and every order on-chain.
+Spent today inside the @SpoutFi beta (Solana devnet, tester no. 253): bought two stocks, read every docs page and every order on-chain.
 
-Short version: the plumbing is real, the keeper is asleep, and the "0% interest" headline is not. Full teardown with signatures: https://github.com/G-ojies/spout-finance-beta-teardown
+The plumbing is real. The keeper is asleep. The "0% interest" headline is not. Full teardown with signatures: https://github.com/G-ojies/spout-finance-beta-teardown
 
 2/
 The app's own borrow-cost column, live today: NVDA 0 bps, SMCI 0 bps, BSOL 0 bps, Goldman Sachs 86 bps.
@@ -30,7 +30,7 @@ The beta is called "Solana Testnet" on the card and in the launch post. None of 
 Still broken 13 days after other testers flagged it: AAPL is missing from the instruments API and the bundle ships a hardcoded $228.50. My $5 order: modal said "You own 0.02 AAPL at $228.50". Chain says Stork price $337.05, 0.0148 AAPL, oracle 167 s stale. Sig oHZuKS…WKqEt
 
 8/
-The bigger one. Nothing has filled for 37 hours. Last mint on the NVDA token: 22 Sep 05:05 UTC. Since then 36 buy orders across two full US sessions, mine included, sit unfilled while the UI says "Your purchase has been confirmed" and the operator key sweeps the USDC to treasury within 3 minutes. No shares, so nobody can borrow either.
+The bigger one: nothing has filled for 37 hours. Last mint on the NVDA token was 22 Sep 05:05 UTC. Since then 36 buy orders, mine included, sit unfilled while the UI says "purchase confirmed" and the operator key sweeps the USDC to treasury in 3 minutes. No shares, so nobody can borrow.
 
 9/
 Small one, but it says something about QA: every dollar figure starting with $1 or $2 in the docs is corrupted ("In a 0m pool", "NVDA falls to 02"). Cause: String.replace with "$1" in the replacement string. Every worked example on the site is unreadable in the served HTML.
