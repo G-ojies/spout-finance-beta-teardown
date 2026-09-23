@@ -30,7 +30,7 @@ The beta is called "Solana Testnet" on the card and in the launch post. None of 
 Still broken 13 days after other testers flagged it: AAPL is missing from the instruments API and the bundle ships a hardcoded $228.50. My $5 order: modal said "You own 0.02 AAPL at $228.50". Chain says Stork price $337.05, 0.0148 AAPL, oracle 167 s stale. Sig oHZuKS…WKqEt
 
 8/
-The bigger one: nothing has filled for 37 hours. Last mint on the NVDA token was 22 Sep 05:05 UTC. Since then 36 buy orders, mine included, sit unfilled while the UI says "purchase confirmed" and the operator key sweeps the USDC to treasury in 3 minutes. No shares, so nobody can borrow.
+The bigger one: nothing has filled for 37 hours. Last NVDA mint was 22 Sep 05:05 UTC. Since then 36 buy orders, mine included, sit unfilled while the UI says "purchase confirmed" and the operator key sweeps the USDC to treasury in 3 minutes. No shares, so nobody can borrow.
 
 9/
 Small one, but it says something about QA: every dollar figure starting with $1 or $2 in the docs is corrupted ("In a 0m pool", "NVDA falls to 02"). Cause: String.replace with "$1" in the replacement string. Every worked example on the site is unreadable in the served HTML.
