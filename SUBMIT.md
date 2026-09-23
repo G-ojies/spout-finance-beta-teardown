@@ -7,7 +7,7 @@ Submission email on Earn: greatojies@gmail.com (per your standing preference).
 ## Steps
 1. Finish TESTING-SCRIPT.md, fill every `[[FILL]]` in README.md, drop screenshots into `evidence/screenshots/`.
 2. Create a public GitHub repo `spout-finance-beta-teardown` under G-ojies and push this folder.
-3. Post the X thread (x-thread.md), first post links the repo README. Tag @SpoutFi.
+3. X thread posted: https://x.com/Great_ojies/status/2102839537571434635
 4. Submit on Earn: link = the GitHub README (public content) and paste the X thread URL in the same field or in the description.
 5. Optional eligibility question ("anything confusing about this bounty?"): see answer below.
 

@@ -3,7 +3,7 @@
 **Hands-on review of beta.spout.finance on Solana devnet, 23 September 2026, plus a 13-day regression check against the P0s other testers reported on 10 September.**
 
 Reviewer: Great Ojietohamen ([@G-ojies](https://github.com/G-ojies)). Tester number **253**, wallet `3qqWgYcbTpN3K3YbWep9SqyuZ82oGkeW9pncgEgyfe7o`, session 18:03 to 19:00 UTC (US market open throughout).
-Submitted for the Superteam Earn "Spout Finance Product Feedback" bounty. Raw evidence is in [`evidence/`](evidence/).
+Submitted for the Superteam Earn "Spout Finance Product Feedback" bounty. Public thread: [x.com/Great_ojies/status/2102839537571434635](https://x.com/Great_ojies/status/2102839537571434635). Raw evidence is in [`evidence/`](evidence/).
 
 ---
 
