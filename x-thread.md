@@ -3,7 +3,7 @@
 1/
 I spent today inside the @SpoutFi beta (Solana devnet, tester no. 253), bought two stocks, and read every docs page and every order on-chain.
 
-Short version: the plumbing is real, the keeper is asleep, and the "0% interest" headline is not. Full teardown with signatures: [[REPO LINK]]
+Short version: the plumbing is real, the keeper is asleep, and the "0% interest" headline is not. Full teardown with signatures: https://github.com/G-ojies/spout-finance-beta-teardown
 
 2/
 The app's own borrow-cost column, live today: NVDA 0 bps, SMCI 0 bps, BSOL 0 bps, Goldman Sachs 86 bps.
@@ -42,4 +42,4 @@ Three things I would ship before mainnet:
 • Squads multisig + timelock on upgrade, freeze and mint authorities
 
 11/
-The honest pitch is stronger than the marketing one: "0% cash cost, you pay in capped upside, here is the number." That is a product Kamino cannot copy without an options desk. Full report + evidence: [[REPO LINK]]
+The honest pitch is stronger than the marketing one: "0% cash cost, you pay in capped upside, here is the number." That is a product Kamino cannot copy without an options desk. Full report + evidence: https://github.com/G-ojies/spout-finance-beta-teardown
